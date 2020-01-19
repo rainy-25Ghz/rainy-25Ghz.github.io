@@ -54,7 +54,7 @@
 <meta property="og:description" content="冒泡排序 12345678910111213141516171819202122232425262728void Swap(int *a, int *b)&amp;#123;    int temp &#x3D; *a;    *a &#x3D; *b;    *b &#x3D; temp;&amp;#125;void sort(int arr[], int n)&amp;#123;    bool swapped;    for (int i &#x3D;">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-01-19T07:00:54.000Z">
-<meta property="article:modified_time" content="2020-01-19T07:02:52.596Z">
+<meta property="article:modified_time" content="2020-01-19T07:47:55.176Z">
 <meta property="article:author" content="Rainy-25Ghz">
 <meta property="article:tag" content="bubble sort">
 <meta property="article:tag" content="algorithm">
@@ -195,7 +195,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2020-01-19 15:00:54 / Modified: 15:02:52" itemprop="dateCreated datePublished" datetime="2020-01-19T15:00:54+08:00">2020-01-19</time>
+              <time title="Created: 2020-01-19 15:00:54 / Modified: 15:47:55" itemprop="dateCreated datePublished" datetime="2020-01-19T15:00:54+08:00">2020-01-19</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -222,6 +222,7 @@
       
         <p>冒泡排序</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Swap</span><span class="params">(<span class="keyword">int</span> *a, <span class="keyword">int</span> *b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> temp = *a;</span><br><span class="line">    *a = *b;</span><br><span class="line">    *b = temp;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">sort</span><span class="params">(<span class="keyword">int</span> arr[], <span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">bool</span> swapped;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        swapped = <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; n - i - <span class="number">1</span>; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (arr[j] &gt; arr[j + <span class="number">1</span>])</span><br><span class="line">            &#123;</span><br><span class="line">                Swap(&amp;arr[j], &amp;arr[j + <span class="number">1</span>]);</span><br><span class="line">                swapped = <span class="literal">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//if no elements were swapped in the innerloop</span></span><br><span class="line">        <span class="comment">//break</span></span><br><span class="line">        <span class="keyword">if</span> (swapped = <span class="literal">false</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//selection sort</span></span><br></pre></td></tr></table></figure>
     </div>
 
     
